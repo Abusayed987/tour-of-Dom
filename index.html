@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of Dom</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        #fruits-tittle{
+            color: black;
+        }
+        .important_places{
+            color: royalblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore html DOM</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis voluptatem iste eos impedit inventore eum, similique dolor placeat explicabo rerum quod repudiandae suscipit ea, quo aperiam alias nemo, cum ipsum?</p>
+
+    </header>
+    <main>
+        <h2>This  Dom de re baba</h2>
+        <section id="document-container">
+            <h1>Welcome to my dom</h1>
+            <ul>
+                <li>document object model 1</li>
+                <li>document object model 2</li>
+                <li>document object model 3</li>
+                <li> document object model 4</li>
+            </ul>
+        </section>
+        <section >
+            <h1 id="fruits-tittle">Frutis i like</h1>
+            <ul>
+                <li>Apple</li>
+                <li>banaba</li>
+                <li>Carrot</li>
+                <li>mango</li>
+                <li>lichu</li>
+            </ul>
+        </section>
+        <section>
+            <h1 id="places_tittle">places i like to visit</h1>
+            <ul > 
+                <li class="important_places">sundorbon</li>
+                <li class="important_places">bandorbon</li>
+                <li class="important_places">katabon</li>
+                <li>salbon</li>
+            </ul>
+        </section>
+    </main>
+    <script src="js/dom.js"></script>
+    <script src="js/styleInJs.js"></script>
+    <script>
+        // console.log(document.getElementsByTagName('h1'));
+
+        // console.log(document.getElementById('places_tittle').innerText= 'my tour list');
+        // console.log(document.getElementsByClassName('important_places'));
+
+        // console.log(document.querySelectorAll('.important_places'));
+        // console.log(document.querySelector('.important_places').innerText);
+
+        // console.log(document.querySelectorAll("#places_tittle"));
+
+        // console.log(document.getElementById('places_tittle').innerText = 'my tour list');
+
+        // console.log(document.getElementsByTagName('h1').innerText);
+    </script>
+</body>
+</html>
