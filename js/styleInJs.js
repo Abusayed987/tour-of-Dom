@@ -43,6 +43,6 @@ for (const section of sections) {
     section.style.marginTop = '5px';
     section.style.paddingLeft = '20px'
 }
-const documentContainer = document.getElementById('document-container')
-documentContainer.classList.add('text-align');
-documentContainer.classList.remove('text-align')
+// const documentContainer = document.getElementById('document-container')
+// documentContainer.classList.add('text-align');
+// documentContainer.classList.remove('text-align')
